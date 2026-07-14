@@ -1,18 +1,45 @@
-## Getting Started
+🚀 **Gestor de Reservas - Salón de Belleza**
+Sistema de gestión de reservas para un salón de belleza desarrollado en Java. Permite agendar, listar, cancelar y generar reportes de citas.
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+📋 Características
+✅ Agendar reservas con validación de:
+Nombre del cliente (no vacío)
+Hora disponible (8:00 - 17:00)
+Servicios disponibles (Corte, Tinte, Manicure)
+Cupo máximo de 10 reservas
 
-## Folder Structure
+📋 Listar todas las reservas agendadas
+❌ Cancelar reservas por número
+📊 Reporte del día con:
+Total de citas
+Dinero facturado
+Desglose por servicio
 
-The workspace contains two folders by default, where:
+🛠️ **Tecnologías**
+Java (JDK 11 o superior)
+Consola/terminal
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+📁 **Estructura del Proyecto**
+proyecto-reservas/
+├── App.java          # Clase principal - Punto de entrada
+├── Menu.java         # Manejo del menú principal
+├── Operaciones.java  # Lógica de negocio
+├── Validador.java    # Validaciones y utilidades
+└── README.md         # Este archivo
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+🔧 **Instalación y Ejecución**
+Prerrequisitos
+Java JDK 11 o superior instalado
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+Git (opcional, para clonar el repositorio)
 
-## Dependency Management
+**Pasos para ejecutar**
+1. Clonar el repositorio (si usas Git):
+git clone https://github.com/tu-usuario/proyecto-reservas.git
+cd proyecto-reservas
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Compilar todos los archivos Java:
+javac *.java
+
+3. Ejecutar la aplicación:
+java App

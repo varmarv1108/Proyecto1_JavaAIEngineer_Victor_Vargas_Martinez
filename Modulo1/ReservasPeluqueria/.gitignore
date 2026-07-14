@@ -1,0 +1,155 @@
+# ==============================================
+# ARCHIVOS COMPILADOS DE JAVA
+# ==============================================
+
+# Archivos .class compilados
+*.class
+
+# Archivos de paquetes
+*.jar
+*.war
+*.ear
+
+# Archivos de módulos Java
+*.jmod
+*.hprof
+
+# ==============================================
+# DIRECTORIOS DE COMPILACIÓN
+# ==============================================
+
+# Directorio de compilación común
+bin/
+build/
+target/
+out/
+dist/
+classes/
+
+# Directorios de proyectos específicos
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+*.swp
+*.swo
+
+# ==============================================
+# ARCHIVOS DE SISTEMA Y EDITORES
+# ==============================================
+
+# Archivos de sistema operativo
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Archivos de editores de texto
+*.bak
+*.tmp
+*.temp
+*.log
+*.old
+*.orig
+*.rej
+*.patch
+
+# ==============================================
+# ARCHIVOS DE PROYECTO Y CONFIGURACIÓN
+# ==============================================
+
+# Archivos de configuración de usuario
+*.properties
+*.xml
+*.yaml
+*.yml
+*.json
+
+# No incluir archivos de configuración de compilación
+pom.xml
+build.gradle
+settings.gradle
+gradle.properties
+gradlew
+gradlew.bat
+.gradle/
+mvnw
+mvnw.cmd
+
+# ==============================================
+# ARCHIVOS DE PRUEBAS Y REPORTES
+# ==============================================
+
+# Reportes de pruebas
+test-output/
+surefire-reports/
+target/surefire-reports/
+TEST-*.xml
+
+# Cobertura de código
+coverage/
+.coveralls.yml
+jacoco.exec
+
+# ==============================================
+# OTRAS CARPETAS TEMPORALES
+# ==============================================
+
+# Archivos temporales de Java
+hs_err_pid*
+replay_pid*
+*.ctxt
+*.log
+
+# Archivos de dependencias
+lib/
+libs/
+dependency/
+dependencies/
+
+# Archivos de documentación generada
+apidocs/
+javadoc/
+
+# ==============================================
+# ESPECÍFICO PARA TU PROYECTO
+# ==============================================
+
+# Solo mantener archivos .java y README.md
+# Todo lo demás será ignorado
+
+# Archivos de clase compilados (por si acaso)
+/*.class
+
+# Cualquier archivo de proyecto que no sea .java
+*.txt
+*.doc
+*.pdf
+*.docx
+*.xls
+*.xlsx
+*.pptx
+*.ppt
+
+# Archivos de datos o de prueba
+data/
+test/
+resources/
+
+# ==============================================
+# EJEMPLO DE ESTRUCTURA QUE SE MANTENDRÁ
+# ==============================================
+
+# Se mantendrán estos archivos:
+# - App.java
+# - Menu.java
+# - Operaciones.java
+# - Validador.java
+# - README.md
+# - .gitignore (este archivo)
